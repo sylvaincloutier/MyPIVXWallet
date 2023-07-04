@@ -355,7 +355,7 @@ export async function start() {
 
         // Import the wallet, and toggle the startup flag, which delegates the chain data refresh to settingsStart();
         if (publicKey) {
-            importWallet({ newWif: publicKey, fStartup: true });
+            await importWallet({ newWif: publicKey, fStartup: true });
 
             // Payment processor popup
             if (reqTo.length || reqAmount > 0) {
@@ -391,6 +391,9 @@ export async function start() {
 
     // Check for recent upgrades, display the changelog
     checkForUpgrades();
+
+    // If we haven't already (due to having no wallet, etc), display the Dashboard
+    doms.domDashboard.click();
 }
 
 function subscribeToNetworkEvents() {
@@ -946,10 +949,6 @@ async function loadImages() {
     const images = [
         ['mpw-main-logo', import('../assets/logo.png')],
         ['privateKeyImage', import('../assets/key.png')],
-        ['img-governance', import('../assets/img_governance.png')],
-        ['img-pos', import('../assets/img_pos.png')],
-        ['img-privacy', import('../assets/img_privacy.png')],
-        ['img-slider-bars', import('../assets/img_slider_bars.png')],
     ];
 
     const promises = images.map(([id, path]) =>
