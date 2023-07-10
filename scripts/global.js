@@ -1423,8 +1423,10 @@ export async function onPrivateKeyChanged() {
  * Imports a wallet using the GUI input, handling decryption via UI
  */
 export async function guiImportWallet() {
-    const fEncrypted =
-        doms.domPrivKey.value.length >= 128 && isBase64(doms.domPrivKey.value);
+    // Important: These fields will be wiped by importWallet();
+    const strPrivKey = doms.domPrivKey.value;
+    const strPassword = doms.domPrivKeyPassword.value;
+    const fEncrypted = strPrivKey.length >= 128 && isBase64(strPrivKey);
 
     // If we are in testnet: prompt an import
     if (cChainParams.current.isTestnet) return importWallet();
@@ -1433,8 +1435,6 @@ export async function guiImportWallet() {
     if (!(await hasEncryptedWallet()) && !fEncrypted) return importWallet();
 
     // If we don't have a DB wallet and the input is ciphered:
-    const strPrivKey = doms.domPrivKey.value;
-    const strPassword = doms.domPrivKeyPassword.value;
     if (!(await hasEncryptedWallet()) && fEncrypted) {
         const strDecWIF = await decrypt(strPrivKey, strPassword);
         if (!strDecWIF || strDecWIF === 'decryption failed!') {
@@ -1452,6 +1452,9 @@ export async function guiImportWallet() {
                     encWif: strPrivKey,
                 });
             }
+            // Destroy residue import data
+            doms.domPrivKey.value = '';
+            doms.domPrivKeyPassword.value = '';
             return;
         }
     }
@@ -1488,6 +1491,8 @@ export function guiEncryptWallet() {
     createAlert('success', ALERTS.NEW_PASSWORD_SUCCESS, [], 5500);
 
     $('#encryptWalletModal').modal('hide');
+    doms.domEncryptPasswordFirst.value = '';
+    doms.domEncryptPasswordSecond.value = '';
 
     doms.domWipeWallet.hidden = false;
 }
@@ -1772,10 +1777,12 @@ export async function restoreWallet(strReason = '') {
             html: `${strHTML}<input type="password" id="restoreWalletPassword" placeholder="Wallet password" style="text-align: center;">`,
         })
     ) {
+        // Fetch the password from the prompt, and immediately destroy the prompt input
+        const domPassword = document.getElementById('restoreWalletPassword');
+        const strPassword = domPassword.value;
+        domPassword.value = '';
+
         // Attempt to unlock the wallet with the provided password
-        const strPassword = document.getElementById(
-            'restoreWalletPassword'
-        ).value;
         if (await decryptWallet(strPassword)) {
             doms.domRestoreWallet.hidden = true;
             doms.domWipeWallet.hidden = false;
