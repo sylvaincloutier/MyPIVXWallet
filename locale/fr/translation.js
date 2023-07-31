@@ -1,4 +1,4 @@
-var translation = {
+export const fr_translation = {
     // This document is to be used as a template as all the base code is in English
     // Basic HTML tags are allowed such as <b><i> etc. All data is sanitized https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
 
@@ -23,44 +23,44 @@ var translation = {
     // NOTE: If a section does NOT need translating, leave it empty.
 
     // General words
-    amount: '', //Amount
-    staking: '', //Staking
-    wallet: '', //Wallet
-    display: '', //Display
-    activity: '', //Activity
-    yes: '', //Yes
-    no: '', //No
+    amount: 'Montant', //Amount
+    staking: 'Staking', //Staking
+    wallet: 'Portefeuille', //Wallet
+    display: 'Afficher', //Display
+    activity: 'Activité', //Activity
+    yes: 'Oui', //Yes
+    no: 'Non', //No
 
     // Nav Bar
-    navDashboard: '', //Dashboard
-    navStake: '', //Stake
-    navMasternode: '', //Masternode
-    navGovernance: '', //Governance
-    navSettings: '', //Settings
+    navDashboard: 'Tableau de bord', //Dashboard
+    navStake: 'Stake', //Stake
+    navMasternode: 'Masternode', //Masternode
+    navGovernance: 'Gouvernance', //Governance
+    navSettings: 'Paramètres', //Settings
 
     // Footer
-    footerBuiltWithPivxLabs: '', //Built with 💜 by PIVX Labs
+    footerBuiltWithPivxLabs: 'Construit avec 💜 par PIVX Labs ', //Built with 💜 by PIVX Labs
 
     // Intro
-    loading: '', //Loading
-    loadingTitle: '', //My PIVX Wallet is
+    loading: 'En cours de chargement', //Loading
+    loadingTitle: 'My PIVX Wallet est', //My PIVX Wallet is
 
     // Onboarding Dashboard
-    dashboardTitle: '', //Dashboard
-    dCardOneTitle: '', //Create a
-    dCardOneSubTitle: '', //New Wallet
-    dCardOneDesc: '', //Create a new PIVX wallet, offering the most secure backup & security methods.
-    dCardOneButton: '', //Create A New Wallet
+    dashboardTitle: 'Tableau de bord', //Dashboard
+    dCardOneTitle: 'Créer un', //Create a
+    dCardOneSubTitle: 'Nouveau portefeuille', //New Wallet
+    dCardOneDesc: 'Créer un nouveau portefeuille PIVX, offrant les méthodes de sauvegarde et de sécurité les plus sûres.', //Create a new PIVX wallet, offering the most secure backup & security methods.
+    dCardOneButton: 'Créer une nouveau portefeuille', //Create A New Wallet
 
-    dCardTwoTitle: '', //Create a new
-    dCardTwoSubTitle: '', //Vanity Wallet
-    dCardTwoDesc: '', //Create a wallet with a custom prefix, this can take a long time!
-    dCardTwoButton: '', //Create A Vanity Wallet
+    dCardTwoTitle: 'Créer un nouveau', //Create a new
+    dCardTwoSubTitle: 'Portefeuille Vanity', //Vanity Wallet
+    dCardTwoDesc: 'Créer un portefeuille avec un préfixe personnalisé, cela peut prendre beaucoup de temps!', //Create a wallet with a custom prefix, this can take a long time!
+    dCardTwoButton: 'Créer un portefeuile Vanity', //Create A Vanity Wallet
 
-    dCardThreeTitle: '', //Access your
-    dCardThreeSubTitle: '', //Hardware Wallet
-    dCardThreeDesc: '', //Use your Ledger Hardware wallet with MPW's familiar interface.
-    dCardThreeButton: '', //Access my Ledger
+    dCardThreeTitle: 'Accédez à votre', //Access your
+    dCardThreeSubTitle: 'Portefeuille physique', //Hardware Wallet
+    dCardThreeDesc: 'Utilisez votre portefeuille Ledger Hardware avec l\'interface familière de MPW', //Use your Ledger Hardware wallet with MPW's familiar interface.
+    dCardThreeButton: 'Accéder mon ledger', //Access my Ledger
 
     dCardFourTitle: '', //Go to
     dCardFourSubTitle: '', //My Wallet
