@@ -62,132 +62,132 @@ export const fr_translation = {
     dCardThreeDesc: 'Utilisez votre portefeuille Ledger Hardware avec l\'interface familière de MPW', //Use your Ledger Hardware wallet with MPW's familiar interface.
     dCardThreeButton: 'Accéder mon ledger', //Access my Ledger
 
-    dCardFourTitle: '', //Go to
-    dCardFourSubTitle: '', //My Wallet
-    dCardFourDesc: '', //Import a PIVX wallet using a Private Key, xpriv, or Seed Phrase.
-    dCardFourButtonI: '', //Import Wallet
-    dCardFourButtonA: '', //Access My Wallet
+    dCardFourTitle: 'Aller à', //Go to
+    dCardFourSubTitle: 'Mon portefeuille', //My Wallet
+    dCardFourDesc: 'Importer un portefeuille PIVX à l\'aide d\'une clé privée, d\'un xpriv ou d\'une Seed Phrase.', //Import a PIVX wallet using a Private Key, xpriv, or Seed Phrase.
+    dCardFourButtonI: 'Importation du portefeuille', //Import Wallet
+    dCardFourButtonA: 'Accéder à mon portefeuille', //Access My Wallet
 
     // Seed Phrase Creation
-    thisIsYourSeed: '', //This is your seed phrase:
-    writeDownSeed: '', //Write it down somewhere. You'll only see this <b>once!</b>
-    doNotShareWarning: '', //Anyone with a copy of it can access <b>all</b> of your funds.
-    doNotShare: '', //Do NOT share it with anybody.
-    digitalStoreNotAdvised: '', //It is <b>NOT</b> advised to store this digitally.
-    optionalPassphrase: '', //Optional Passphrase
-    writtenDown: '', //I have written down my seed phrase
+    thisIsYourSeed: 'Il s\'agit de votre phrase seed', //This is your seed phrase:
+    writeDownSeed: 'Notez-le quelque part. Vous ne le verrez qu\'une fois!', //Write it down somewhere. You'll only see this <b>once!</b>
+    doNotShareWarning: 'Toute personne possédant une copie de ce document peut accéder à l\'ensemble de vos fonds.', //Anyone with a copy of it can access <b>all</b> of your funds.
+    doNotShare: 'Ne le partagez PAS avec personne.', //Do NOT share it with anybody.
+    digitalStoreNotAdvised: 'Il n\'est PAS conseillé de les stocker sous forme numérique.', //It is <b>NOT</b> advised to store this digitally.
+    optionalPassphrase: 'Phrase d\'authentification facultative', //Optional Passphrase
+    writtenDown: 'J\'ai écrit ma phrase seed', //I have written down my seed phrase
 
     // Wallet Dashboard
-    gettingStarted: '', //Getting Started
-    secureYourWallet: '', //Secure your wallet
-    unlockWallet: '', //Unlock wallet
-    lockWallet: '', //Lock wallet
+    gettingStarted: 'Pour commencer', //Getting Started
+    secureYourWallet: 'Sécurisez votre portefeuille', //Secure your wallet
+    unlockWallet: 'Déverrouiller le portefeuille', //Unlock wallet
+    lockWallet: 'Vérouiller le portefeuille', //Lock wallet
 
     // Encrypt wallet
-    encryptWallet: '', //Encrypt wallet
-    encryptPasswordFirst: '', //Enter Password
-    encryptPasswordSecond: '', //Re-enter Password
-    encrypt: '', //Encrypt
+    encryptWallet: 'Encrypter le portefeuille', //Encrypt wallet
+    encryptPasswordFirst: 'Saisir le mot de passe', //Enter Password
+    encryptPasswordSecond: 'Saisir à nouveau le mot de passe', //Re-enter Password
+    encrypt: 'Encrypter', //Encrypt
 
     // Wallet Dashboard Sub-menu
-    balanceBreakdown: '', //Balance Breakdown
-    viewOnExplorer: '', //View on Explorer
-    export: '', //Export
-    refreshAddress: '', //Refresh address
-    redeemOrCreateCode: '', //Redeem or Create Code
+    balanceBreakdown: 'Répartition du solde', //Balance Breakdown
+    viewOnExplorer: 'Voir sur Explorer', //View on Explorer
+    export: 'Exporter', //Export
+    refreshAddress: 'Actualiser l\'adresse', //Refresh address
+    redeemOrCreateCode: 'Échanger ou créer un code', //Redeem or Create Code
 
     // Send
-    transfer: '', //Transfer
-    address: '', //Address
-    receivingAddress: '', //Receiving address
-    sendAmountCoinsMax: '', //MAX
-    paymentRequestMessage: '', //Description (from the merchant)
-    send: '', //Send
+    transfer: 'Transférer', //Transfer
+    address: 'Adresse', //Address
+    receivingAddress: 'Adresse de réception', //Receiving address
+    sendAmountCoinsMax: 'MAX', //MAX
+    paymentRequestMessage: 'Description (du marchand)', //Description (from the merchant)
+    send: 'Envoyer', //Send
 
     // Export
-    privateKey: '', //Private Key
-    viewPrivateKey: '', //View Private Key?
-    privateWarning1: '', //Make sure no one can see your screen.
-    privateWarning2: '', //Anyone with this key can steal your funds.
-    viewKey: '', //View key
+    privateKey: 'Clé privée', //Private Key
+    viewPrivateKey: 'Voir la clé privée?', //View Private Key?
+    privateWarning1: 'Assurez-vous que personne ne peut voir votre écran.', //Make sure no one can see your screen.
+    privateWarning2: 'Toute personne possédant cette clé peut voler vos fonds.', //Anyone with this key can steal your funds.
+    viewKey: 'Voir la clé', //View key
 
     // PIVX Promos
     // NOTE: for this below line, continue the sentence "PIVX Promos [...]", since 'PIVX Promos' is a brand, it is not translated.
-    pivxPromos: '', // [...] is a decentralised system for gift codes worth PIV
+    pivxPromos: '[...] est un système décentralisé de codes cadeaux valant PIV', // [...] is a decentralised system for gift codes worth PIV
     // NOTE: on this line, if possible, leave 'PIVX Promos' untranslated
-    redeemInput: '', //Enter your 'PIVX Promos' code
-    createName: '', //Promo Name (Optional)
-    createAmount: '', //Promo Amount
+    redeemInput: 'Saisissez votre code promo PIVX.', //Enter your 'PIVX Promos' code
+    createName: 'Nom de la promotion (facultatif)', //Promo Name (Optional)
+    createAmount: 'Montant de la promotion', //Promo Amount
 
     // Stake
-    stake: '', //Stake
-    stakeUnstake: '', //Unstake
-    rewardHistory: '', //Reward History
-    loadMore: '', //Load more
+    stake: 'Stake', //Stake
+    stakeUnstake: 'Unstake', //Unstake
+    rewardHistory: 'Historique des récompenses', //Reward History
+    loadMore: 'Plus d\'infos', //Load more
 
     // Masternode
-    mnControlYour: '', //Control your
-    mnSubtext: '', //From this tab you can create and access one or more masternodes
+    mnControlYour: 'Contrôler vos', //Control your
+    mnSubtext: 'Cet onglet permet de créer et d\'accéder à un ou plusieurs masternodes.', //From this tab you can create and access one or more masternodes
 
     // Governance
-    govSubtext: '', //From this tab you can check the proposals and, if you have a masternode, be a part of the <b>DAO</b> and vote!
-    govMonthlyBudget: '', //Monthly Budget
-    govAllocBudget: '', //Allocated Budget
-    govNextPayout: '', //Next Treasury Payout
-    govTableStatus: '', //STATUS
-    govTableName: '', //NAME
-    govTablePayment: '', //PAYMENT
-    govTableVotes: '', //VOTES
-    govTableVote: '', //VOTE
-    contestedProposalsDesc: '', //These are proposals that received an overwhelming amount of downvotes, making it likely spam or a highly contestable proposal.
+    govSubtext: 'Depuis cet onglet, vous pouvez consulter les propositions et, si vous avez un masternode, faire partie de la DAO et voter !', //From this tab you can check the proposals and, if you have a masternode, be a part of the <b>DAO</b> and vote!
+    govMonthlyBudget: 'Budget mensuel', //Monthly Budget
+    govAllocBudget: 'Budget alloué', //Allocated Budget
+    govNextPayout: 'Prochain versement du Trésor', //Next Treasury Payout
+    govTableStatus: 'STATUT', //STATUS
+    govTableName: 'NOM', //NAME
+    govTablePayment: 'PAIEMENT', //PAYMENT
+    govTableVotes: 'VOTES', //VOTES
+    govTableVote: 'VOTE', //VOTE
+    contestedProposalsDesc: 'Il s\'agit de propositions qui ont reçu un nombre impressionnant de votes négatifs, ce qui en fait probablement du spam ou une proposition très contestable.', //These are proposals that received an overwhelming amount of downvotes, making it likely spam or a highly contestable proposal.
 
     // Settings
-    settingsCurrency: '', //Choose a display currency:
-    settingsExplorer: '', //Choose an explorer:
-    settingsLanguage: '', //Choose a Language:
-    settingsPivxNode: '', //Choose a PIVX node:
-    settingsAutoSelectNet: '', //Auto-select Explorers and Nodes
-    settingsAnalytics: '', //Choose your analytics contribution level:
-    settingsToggleDebug: '', //Debug Mode
-    settingsToggleTestnet: '', //Testnet Mode
+    settingsCurrency: 'Choisir une devise d\'affichage', //Choose a display currency:
+    settingsExplorer: 'Choisir un explorateur', //Choose an explorer:
+    settingsLanguage: 'Choisir une lanque', //Choose a Language:
+    settingsPivxNode: 'Choisir une node PIVX', //Choose a PIVX node:
+    settingsAutoSelectNet: 'Sélection automatique des explorateurs et des nœuds', //Auto-select Explorers and Nodes
+    settingsAnalytics: 'Choisissez votre niveau de contribution à l\'analyse :', //Choose your analytics contribution level:
+    settingsToggleDebug: 'Mode de débogage', //Debug Mode
+    settingsToggleTestnet: 'Mode Testnet', //Testnet Mode
 
     // Transparency Report
-    transparencyReport: '', //Transparency Report
-    hit: '', //A ping indicating an app load, no unique data is sent.
-    time_to_sync: '', //The time in seconds it took for MPW to last synchronise.
-    transaction: '', //A ping indicating a Tx, no unique data is sent, but may be inferred from on-chain time.
+    transparencyReport: 'Rapport de transparence', //Transparency Report
+    hit: 'Un ping indiquant le chargement d\'une application, aucune donnée unique n\'est envoyée.', //A ping indicating an app load, no unique data is sent.
+    time_to_sync: 'Le temps en secondes qu\'il a fallu à MPW pour se synchroniser pour la dernière fois.', //The time in seconds it took for MPW to last synchronise.
+    transaction: 'Un ping indiquant un Tx, aucune donnée unique n\'est envoyée, mais peut être déduite de la durée de la chaîne.', //A ping indicating a Tx, no unique data is sent, but may be inferred from on-chain time.
 
     // Analytics Levels
-    analyticDisabled: '', //Disabled
-    analyticMinimal: '', //Minimal
-    analyticBalanced: '', //Balanced
+    analyticDisabled: 'Désactivé', //Disabled
+    analyticMinimal: 'Minimal', //Minimal
+    analyticBalanced: 'Équilibré', //Balanced
 
     // Migration System
-    MIGRATION_ACCOUNT_FAILURE_TITLE: '', //Failed to recover account
-    MIGRATION_ACCOUNT_FAILURE_HTML: '', //There was an error recovering your account. <br> Please reimport your wallet using the following key:
+    MIGRATION_ACCOUNT_FAILURE_TITLE: 'Échec de la récupération du compte', //Failed to recover account
+    MIGRATION_ACCOUNT_FAILURE_HTML: 'There was an error recovering your account. <br> Veuillez réimporter votre portefeuille en utilisant la clé suivante :', //There was an error recovering your account. <br> Please reimport your wallet using the following key:
 
     // Dynamic Elements (Rendered at runtime - TODO in future PR: sort in to above categories for consistency)
-    ID: '', //ID
-    time: '', //Time
-    description: '', //Description
-    activityBlockReward: '', //Block Reward
-    activitySentTo: '', //Sent to
-    activitySentToSelf: '', //Sent to self
-    activityShieldedAddress: '', //Shielded address
-    activityReceivedShield: '', //Received from Shielded address
-    activityReceivedFrom: '', //Received from
-    activityDelegatedTo: '', //Delegated to
-    activityUndelegated: '', //Undelegated
-    activityUnknown: '', //Unknown Tx
-    password: '', //Password
-    walletUnlock: '', //Unlock your wallet
-    walletPassword: '', //Wallet password
-    walletUnlockCreateMN: '', //Unlock to create your Masternode!
-    walletUnlockMNStart: '', //Unlock to start your Masternode!
-    walletUnlockProposal: '', //Unlock to create a proposal!
-    walletUnlockPromo: '', //Unlock to finalise your Promo Code!
-    walletUnlockTx: '', //Unlock to send your transaction!
-    walletUnlockStake: '', //Unlock to stake your
+    ID: 'ID', //ID
+    time: 'Heure', //Time
+    description: 'Description', //Description
+    activityBlockReward: 'Récompense en bloc', //Block Reward
+    activitySentTo: 'Envoyé à', //Sent to
+    activitySentToSelf: 'Envoyé à soi-même', //Sent to self
+    activityShieldedAddress: 'Adresse protégée', //Shielded address
+    activityReceivedShield: 'Reçu d\'une adresse protégée', //Received from Shielded address
+    activityReceivedFrom: 'Reçu de', //Received from
+    activityDelegatedTo: 'Délégué à', //Delegated to
+    activityUndelegated: 'Non délégué', //Undelegated
+    activityUnknown: 'Transaction inconnu', //Unknown Tx
+    password: 'Mot de passe', //Password
+    walletUnlock: 'Déverrouillez votre portefeuille', //Unlock your wallet
+    walletPassword: 'Mot de passe du portefeuille', //Wallet password
+    walletUnlockCreateMN: 'Débloquez pour créer votre Masternode!', //Unlock to create your Masternode!
+    walletUnlockMNStart: 'Débloquez pour démarrer votre Masternode!', //Unlock to start your Masternode!
+    walletUnlockProposal: 'Débloquez pour créer une proposition! Débloquez pour démarrer votre Masternode !', //Unlock to create a proposal!Unlock to start your Masternode!
+    walletUnlockPromo: 'Déverrouillez pour finaliser votre code promo!', //Unlock to finalise your Promo Code!
+    walletUnlockTx: 'Déverrouillez pour envoyer votre transaction!', //Unlock to send your transaction!
+    walletUnlockStake: 'Déverrouillez pour Staker votre', //Unlock to stake your
     walletUnlockUnstake: '', //Unlock to unstake your
     changelogTitle: '', //What's New in
     popupSetColdAddr: '', //Set your Cold Staking address
